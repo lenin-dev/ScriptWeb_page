@@ -32,7 +32,7 @@ function cargarSlider() {
 
 function cargarQuien() {
     const http = new XMLHttpRequest();
-    const url = '../Vistas/QuienSomos.html';
+    const url = './Vistas/QuienSomos.html';
 
     http.open('GET', url);
     http.send();
