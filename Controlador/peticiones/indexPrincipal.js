@@ -1,6 +1,7 @@
 cargarSlider();
 cargarMenu();
 cargarQuien();
+cargarTarj();
 
 function cargarMenu() {
     const http = new XMLHttpRequest();
@@ -40,6 +41,20 @@ function cargarQuien() {
     http.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
             document.getElementById("contQuien").innerHTML = this.responseText;
+        }
+    }
+}
+
+function cargarTarj() {
+    const http = new XMLHttpRequest();
+    const url = './Vistas/tarjetas.html';
+
+    http.open('GET', url);
+    http.send();
+
+    http.onreadystatechange = function() {
+        if(this.readyState == 4 && this.status == 200) {
+            document.getElementById("contTarj").innerHTML = this.responseText;
         }
     }
 }
