@@ -4,6 +4,7 @@ cargarQuien();
 cargarTarj();
 cargarServicios();
 cargarFooter();
+cargarCotizacion();
 
 function cargarMenu() {
     const http = new XMLHttpRequest();
@@ -85,6 +86,20 @@ function cargarFooter() {
     http.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
             document.getElementById("contFooter").innerHTML = this.responseText;
+        }
+    }
+}
+
+function cargarCotizacion() {
+    const http = new XMLHttpRequest();
+    const url = './Vistas/cotizacion.html';
+
+    http.open('GET', url);
+    http.send();
+
+    http.onreadystatechange = function() {
+        if(this.readyState == 4 && this.status == 200) {
+            document.getElementById("contCoti").innerHTML = this.responseText;
         }
     }
 }
