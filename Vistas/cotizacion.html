@@ -12,27 +12,30 @@
   <div id="contContactanos" class="card text-center shadow">
     <div class="card-body fw-bold" style="color:rgb(255, 255, 255);">
       <h5 class="card-title fs-2" style="color:#005bea">Descubre porque nos necesitas...</h5>
-      <p class="card-text">Ponte en contacto con nosotros y te daremos los mejores paquetes y</p>
-      
-      <form action="">
+      <p class="card-text">Ponte en contacto con nosotros y te daremos los mejores paquetes</p>
+
+      <!-- /////////////////////// -->
+      <!-- Api para mandar Correos formsubmit -->
+      <!-- /////////////////////// -->
+      <form action="https://formsubmit.co/c.l.i.n@outlook.com" method="POST">
         <div class="container col-7">
           <div class="row g-3 mb-3">
             <div class="col-md-6">
               <label for="inputFirstName" class="form-label">Nombres</label>
-              <input type="text" class="form-control" placeholder="Nombres">
+              <input type="text" class="form-control" placeholder="Nombres" name="Nombre">
             </div>
             <div class="col-md-6">
               <label for="inputLastName" class="form-label">Apellidos</label>
-              <input type="text" class="form-control" placeholder="Apellidos">
+              <input type="text" class="form-control" placeholder="Apellidos" name="Apellido">
             </div>
           </div>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" class="form-control" id="exampleFormControlInput1" name="Correo" placeholder="name@example.com">
           </div>
           <div class="mb-3">
             <label for="exampleFormControlSelect" class="form-label">Tipo de página</label>
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" aria-label="Default select example" name="TipoPagina">
               <option selected>Elige el tipo de página web que necesitas</option>
               <option value="Institucionales o de negocio">Institucionales o de negocio</option>
               <option value="Personales o portafolios">Personales o portafolios</option>
@@ -48,10 +51,12 @@
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Especifica tu página</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Descripcion" placeholder="Comentarios sobre su sitio"></textarea>
           </div>
-          <button type="submit" class="btn btn-lg fw-bold text-light mt-3 mb-4" style="background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);">Enviar</button>
+          <button type="submit" value="Enviar" class="btn btn-lg fw-bold text-light mt-3 mb-4" style="background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);">Enviar</button>
         </div>
+        <input type="hidden" name="_next" value="http://localhost/CLIN_page/Index.html">
+        <input type="hidden" name="_template" value="table">
       </form>
 
     </div>
