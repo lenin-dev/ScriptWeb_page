@@ -22,20 +22,20 @@
           <div class="row g-3 mb-3">
             <div class="col-md-6">
               <label for="inputFirstName" class="form-label">Nombres</label>
-              <input type="text" class="form-control" placeholder="Nombres" name="Nombre">
+              <input type="text" class="form-control" placeholder="Nombres" required name="Nombre">
             </div>
             <div class="col-md-6">
               <label for="inputLastName" class="form-label">Apellidos</label>
-              <input type="text" class="form-control" placeholder="Apellidos" name="Apellido">
+              <input type="text" class="form-control" placeholder="Apellidos" required name="Apellido">
             </div>
           </div>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" name="Correo" placeholder="name@example.com">
+            <input type="email" class="form-control" id="exampleFormControlInput1" required name="Correo" placeholder="name@example.com">
           </div>
           <div class="mb-3">
             <label for="exampleFormControlSelect" class="form-label">Tipo de página</label>
-            <select class="form-select" aria-label="Default select example" name="TipoPagina">
+            <select class="form-select" aria-label="Default select example" name="TipoPagina" required>
               <option selected>Elige el tipo de página web que necesitas</option>
               <option value="Institucionales o de negocio">Institucionales o de negocio</option>
               <option value="Personales o portafolios">Personales o portafolios</option>
@@ -51,7 +51,7 @@
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label">Especifica tu página</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Descripcion" placeholder="Comentarios sobre su sitio"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required name="Descripcion" placeholder="Comentarios sobre su sitio"></textarea>
           </div>
           <button type="submit" value="Enviar" class="btn btn-lg fw-bold text-light mt-3 mb-4" style="background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);">Enviar</button>
         </div>
