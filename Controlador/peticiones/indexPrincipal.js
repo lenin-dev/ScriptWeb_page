@@ -5,6 +5,7 @@ cargarTarj();
 cargarServicios();
 cargarFooter();
 cargarCotizacion();
+cargarOfrecemos();
 
 function cargarMenu() {
     const http = new XMLHttpRequest();
@@ -100,6 +101,20 @@ function cargarCotizacion() {
     http.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
             document.getElementById("contCoti").innerHTML = this.responseText;
+        }
+    }
+}
+
+function cargarOfrecemos() {
+    const http = new XMLHttpRequest();
+    const url = './Vistas/ofrecemos.html';
+
+    http.open('GET', url);
+    http.send();
+
+    http.onreadystatechange = function() {
+        if(this.readyState == 4 && this.status == 200) {
+            document.getElementById("contOfrecemos").innerHTML = this.responseText;
         }
     }
 }
