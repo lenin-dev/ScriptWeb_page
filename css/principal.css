@@ -1,0 +1,111 @@
+/* //////////////////////////////// CONTACTO //////////////////////////////// */
+#contContactanos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/cotizacion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+/* //////////////////////////////// FOOTER //////////////////////////////// */
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos i {
+    font-size: 100px;
+    width: 100px;
+    padding: 0 8px;
+    margin-bottom: 10px;
+    color:#000000;
+}
+
+.foot {
+    background-color: #0099ff;
+}
+
+/* //////////////////////////////// MENU //////////////////////////////// */
+nav.scrolling {
+    background-color: rgba(78, 78, 78, 0.795) ;
+    transition: 1.5s;
+    padding: 15px 20px;
+}
+
+nav div div  ul li a {
+    color: rgb(255, 255, 255) !important;
+}
+
+.navColor {
+    color: rgba(255, 255, 255, 0);
+    transition: 0.7s;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* //////////////////////////////// QUIENES SOMOS //////////////////////////////// */
+.sec{
+    background: #fff;
+    padding: 10px;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec .content{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.mxw800p{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btn{
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+
+}
+
+p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* //////////////////////////////// SLIDER //////////////////////////////// */
+.carousel-item {
+    height: 560px;
+}
+
+.img1 {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+    height: 100%;
+}
+
+/* //////////////////////////////// SERVICIOS //////////////////////////////// */
+.serviciosn{
+    text-align: center;
+    justify-content: center;
+
+}

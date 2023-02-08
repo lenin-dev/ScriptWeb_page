@@ -1,3 +1,5 @@
+new WOW().init();
+
 cargarSlider();
 cargarMenu();
 cargarQuien();
