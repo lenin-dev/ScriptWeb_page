@@ -1,3 +1,10 @@
-.nav-scroll {
-    background-color: rgba(15, 15, 15, 0.733);
+.carousel-item {
+    height: 560px;
+}
+
+.img1 {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+    height: 100%;
 }
