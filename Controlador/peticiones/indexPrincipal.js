@@ -5,7 +5,6 @@ cargarMenu();
 cargarQuien();
 cargarTarj();
 cargarServicios();
-cargarFooter();
 cargarCotizacion();
 cargarOfrecemos();
 
@@ -75,20 +74,6 @@ function cargarServicios() {
     http.onreadystatechange = function() {
         if(this.readyState == 4 && this.status == 200) {
             document.getElementById("contServ").innerHTML = this.responseText;
-        }
-    }
-}
-
-function cargarFooter() {
-    const http = new XMLHttpRequest();
-    const url = './Vistas/Footer.html';
-
-    http.open('GET', url);
-    http.send();
-
-    http.onreadystatechange = function() {
-        if(this.readyState == 4 && this.status == 200) {
-            document.getElementById("contFooter").innerHTML = this.responseText;
         }
     }
 }
