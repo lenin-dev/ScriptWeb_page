@@ -30,7 +30,7 @@
           </div>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" required name="Correo" placeholder="name@example.com">
+            <input type="email" class="form-control" id="exampleFormControlInput1" required name="email" placeholder="NameEmail@example.com">
           </div>
           <div class="mb-3">
             <label for="exampleFormControlSelect" class="form-label">Tipo de página</label>
@@ -54,6 +54,8 @@
           </div>
           <button type="submit" value="Enviar" class="btn btn-lg fw-bold text-light mt-3 mb-4" style="background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);">Enviar</button>
         </div>
+        <input type="hidden" name="_autoresponse" value="Gracias por contactarnos, tus datos han sido enviados, espere a una respuestas.">
+        <input type="hidden" name="_subject" value="¡Nuevo trabajo!">
         <input type="hidden" name="_next" value="http://localhost/CLIN_page/Index.html">
         <input type="hidden" name="_template" value="table">
       </form>
