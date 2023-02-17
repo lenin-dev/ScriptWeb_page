@@ -6,7 +6,7 @@
 }
 
 footer {
-    background: #1b2a4e;
+    background: #0093c4;
     min-height: 110px;
     margin-top: -10px;
 }
@@ -39,7 +39,7 @@ footer p{
 
 /* //////////////////////////////// MENU //////////////////////////////// */
 nav.scrolling {
-    background-color: #1b2a4ea1 ;
+    background-color: #0093c49f ;
     transition: 1.5s;
     padding: 15px 20px;
 }
