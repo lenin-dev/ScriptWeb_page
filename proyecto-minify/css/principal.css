@@ -1,0 +1,137 @@
+/* //////////////////////////////// FOOTER //////////////////////////////// */
+.curvas {
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+}
+
+footer {
+    background: #213344;
+    min-height: 110px;
+    margin-top: -10px;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos i {
+    font-size: 100px;
+    width: 100px;
+    padding: 0 8px;
+    margin-bottom: 10px;
+    color:#000000;
+}
+
+.foot {
+    background-color: #0085dd;
+}
+
+/* //////////////////////////////// CONTACTO //////////////////////////////// */
+#contContactanos {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/img/cotizacion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 60rem;
+    position: relative;
+}
+
+.btnColorPropio:hover {
+    transition: 0.7s;
+    background-color: #22a6ff !important;
+    box-shadow: rgba(231, 231, 231, 0.733) 0.0em 0.0em 1.0em;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.9em;
+}
+
+.btnColorPropio {
+    transition: 0.7s;
+    background-color: #0099ff !important;
+}
+
+/* //////////////////////////////// MENU //////////////////////////////// */
+.iluminButton:hover {
+    transition: 0.7s;
+    text-shadow: rgb(0, 81, 255) 0.1em 0.1em 1.5em;
+}
+
+nav.scrolling {
+    background-color: #213344 ;
+    transition: 1.5s;
+    padding: 10px 10px;
+}
+
+nav div div  ul li a {
+    color: rgb(255, 255, 255) !important;
+}
+
+.navColor {
+    color: rgba(255, 255, 255, 0);
+    transition: 0.7s;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* //////////////////////////////// QUIENES SOMOS //////////////////////////////// */
+.sec{
+    background: #fff;
+    padding: 10px;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec .content{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.mxw800p{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.btn{
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 10px;
+
+}
+
+p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* //////////////////////////////// SLIDER //////////////////////////////// */
+.carousel-item {
+    height: 560px;
+}
+
+.img1 {
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+    height: 100%;
+}
+
+/* //////////////////////////////// SERVICIOS //////////////////////////////// */
+.serviciosn{
+    text-align: center;
+    justify-content: center;
+
+}
