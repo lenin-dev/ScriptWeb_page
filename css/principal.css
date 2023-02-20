@@ -6,7 +6,7 @@
 }
 
 footer {
-    background: #0093c4;
+    background: #213344;
     min-height: 110px;
     margin-top: -10px;
 }
@@ -23,7 +23,7 @@ footer p{
 }
 
 .foot {
-    background-color: #0099ff;
+    background-color: #0085dd;
 }
 
 /* //////////////////////////////// CONTACTO //////////////////////////////// */
@@ -37,11 +37,28 @@ footer p{
     position: relative;
 }
 
+.btnColorPropio:hover {
+    transition: 0.7s;
+    background-color: #22a6ff !important;
+    box-shadow: rgba(231, 231, 231, 0.733) 0.0em 0.0em 1.0em;
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.9em;
+}
+
+.btnColorPropio {
+    transition: 0.7s;
+    background-color: #0099ff !important;
+}
+
 /* //////////////////////////////// MENU //////////////////////////////// */
+.iluminButton:hover {
+    transition: 0.7s;
+    text-shadow: rgb(0, 81, 255) 0.1em 0.1em 1.5em;
+}
+
 nav.scrolling {
-    background-color: #0093c49f ;
+    background-color: #213344 ;
     transition: 1.5s;
-    padding: 15px 20px;
+    padding: 10px 10px;
 }
 
 nav div div  ul li a {
